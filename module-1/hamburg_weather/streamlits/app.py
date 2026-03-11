@@ -8,6 +8,7 @@ from snowflake.snowpark.functions import col
 # Get the current credentials
 session = get_active_session()
 
+
 env = "STAGING"
 # env = "PROD"
 
